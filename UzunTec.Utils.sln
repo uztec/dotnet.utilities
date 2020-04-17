@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzunTec.Utils.DatabaseAbstr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzunTec.Utils.Common.Test", "UzunTec.Utils.Common.Test\UzunTec.Utils.Common.Test.csproj", "{407A60CF-F681-4CC9-9A13-5B8C69A8F96F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UzunTec.Utils.DatabaseAbstraction.Test", "UzunTec.Utils.DatabaseAbstraction.Test\UzunTec.Utils.DatabaseAbstraction.Test.csproj", "{7CCD5E83-56EE-4B3C-96B0-8EA47CA3B404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzunTec.Utils.DatabaseAbstraction.SQLServer.Test", "UzunTec.Utils.DatabaseAbstraction.Tests\SQLServer.Test\UzunTec.Utils.DatabaseAbstraction.SQLServer.Test.csproj", "{71EB2819-FF2D-43E4-956C-FEDBB373F2DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UzunTec.Utils.DatabaseAbstraction.MySql.Test", "UzunTec.Utils.DatabaseAbstraction.Tests\MySql.Test\UzunTec.Utils.DatabaseAbstraction.MySql.Test.csproj", "{0D5A8DEC-18A3-4358-A13A-F1B26992DDA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +31,14 @@ Global
 		{407A60CF-F681-4CC9-9A13-5B8C69A8F96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{407A60CF-F681-4CC9-9A13-5B8C69A8F96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{407A60CF-F681-4CC9-9A13-5B8C69A8F96F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CCD5E83-56EE-4B3C-96B0-8EA47CA3B404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CCD5E83-56EE-4B3C-96B0-8EA47CA3B404}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CCD5E83-56EE-4B3C-96B0-8EA47CA3B404}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CCD5E83-56EE-4B3C-96B0-8EA47CA3B404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EB2819-FF2D-43E4-956C-FEDBB373F2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EB2819-FF2D-43E4-956C-FEDBB373F2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EB2819-FF2D-43E4-956C-FEDBB373F2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EB2819-FF2D-43E4-956C-FEDBB373F2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5A8DEC-18A3-4358-A13A-F1B26992DDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5A8DEC-18A3-4358-A13A-F1B26992DDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5A8DEC-18A3-4358-A13A-F1B26992DDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5A8DEC-18A3-4358-A13A-F1B26992DDA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
